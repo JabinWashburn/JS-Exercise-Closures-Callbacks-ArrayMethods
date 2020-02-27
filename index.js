@@ -141,7 +141,7 @@ function processProduct(num1, num2, callback) {
 */
 function processContains(item, list, callback) {
   
-  callback(item === list);
+  return callback(list.includes(item));
 }
 
 /**
@@ -181,12 +181,14 @@ function processDuplicateFree(/* CODE HERE ONLY AFTER COMPLETING ALL OTHER TASKS
  * @instructions
  * Implement this function using forEach().
  * 
- * @param runners array of runners like the one inside the /data/runners.js file.
- * @returns an array with all the runners' full names in the following format: "Smith, John".
+ * @param runners array of runners like the one inside the /data/runners.js file.full
+ * @returns an array with all the runners'  names in the following format: "Smith, John".
  * The full names appear in the array in the same order the runners appear in the `runners` array.
 */
-function getFullNames(/* CODE HERE */) {
-  /* CODE HERE */
+function getFullNames(runners) {
+  const fullNames = [];
+  runners.forEach()
+  return
 }
 
 /**
